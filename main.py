@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
     if os.path.isfile( chkpt_path):
         net.load_state_dict( torch.load(chkpt_path, map_location=torch.device('cpu') ))
-        
+
     net = net.to( device)
     n_train = len( img_batch)
 
@@ -56,4 +56,3 @@ if __name__ == '__main__':
 
 
     print( "Done" )
-
