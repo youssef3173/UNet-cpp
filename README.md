@@ -2,8 +2,8 @@
 The Unet model used for image segmentation, ...
 
 ## Dataset:
-The Cityscapes available on [a link](https://www.cityscapes-dataset.com/) is a dataset for research purposes only. This dataset contains images from stereo video sequences recorded in street scenes in 50 different cities, as well as the respective annotation of each image.
- 
+The Cityscapes available on [https://www.cityscapes-dataset.com/](https://www.cityscapes-dataset.com/) is a dataset for research purposes only. This dataset contains images from stereo video sequences recorded in street scenes in 50 different cities, as well as the respective annotation of each image.
+
 ## Requirements:
 - python3.8+
 - torch
